@@ -1,0 +1,22 @@
+.aboutMe {
+  min-height: 720px;
+  background-color: #e7e7e7;
+  background-image: url('../../assets/background-picture.jpg');
+  /* 不重复 */
+  background-repeat: no-repeat;
+  /* 满屏 */
+  background-size: 100% 100%;
+  padding: 66px 0;
+  position: relative;
+  top: 70px;
+  display: flex;
+}
+.aboutMe-main-left {
+  border: 1px solid #e1dfdf;
+  background-color: white;
+  width: 1200px;
+  border-radius: 18px;
+  box-shadow: 3px 2px 20px 10px #838383;
+  position: relative;
+  margin: auto;
+}

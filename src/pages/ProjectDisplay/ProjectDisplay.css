@@ -1,0 +1,53 @@
+.ProjectDisplay {
+  min-height: 720px;
+  background-color: #e7e7e7;
+  background-image: url('../../assets/background-picture.jpg');
+  /* 不重复 */
+  background-repeat: no-repeat;
+  /* 满屏 */
+  background-size: 100% 100%;
+  padding: 66px 0;
+  position: relative;
+  top: 70px;
+  display: flex;
+}
+.projectDisplay-main-left {
+  border: 1px solid #e1dfdf;
+  background-color: white;
+  width: 75%;
+  border-radius: 18px;
+  box-shadow: 3px 2px 20px 10px #838383;
+  left: 110px;
+  position: relative;
+}
+.projectDisplay-main-right {
+  font-size: 21px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  min-height: 180px;
+  width: 16%;
+  border-radius: 9px;
+  box-shadow: 3px 2px 20px 10px #838383;
+  right: 10px;
+  padding: 12px 0 12px 28px;
+  justify-content: space-around;
+}
+.pyPhotos {
+  width: 700px;
+  margin-bottom: 10px;
+}
+.junior {
+  height: 500px;
+  margin: 10px;
+}
+.video-show {
+  margin: auto;
+  position: relative;
+  animation: videoshow 2s infinite;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: 1;
+  margin-bottom: 18px;
+}
